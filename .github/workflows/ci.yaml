@@ -46,5 +46,5 @@ jobs:
             --image=${{ env.REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.GAR_REPOSITORY }}/${{ env.IMAGE_NAME }}:${{ github.sha }} \
             --platform=managed \
             --region=${{ env.REGION }} \
-            --allow-unauthenticated
+          
 
